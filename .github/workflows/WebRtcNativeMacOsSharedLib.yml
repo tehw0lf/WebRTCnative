@@ -43,9 +43,9 @@ jobs:
         git checkout branch-heads/5481
         gclient sync
         sed -i 's/rtc_static_library/rtc_shared_library/g' BUILD.gn
-        sed -i '/complete_static_lib/d' BUILD.gn
+        sed -i '' '/complete_static_lib/d' BUILD.gn
         sed -i 's/!build_with_chromium && is_component_build/false/g' webrtc.gni
-        sed -i '/:frame_analyzer/d' rtc_tools/BUILD.gn        
+        sed -i '' '/:frame_analyzer/d' rtc_tools/BUILD.gn        
         gn gen out/Default --args="is_debug=false is_component_build=true rtc_enable_symbol_export=true rtc_include_tests=false rtc_build_tools=false rtc_build_examples=false"
         autoninja -C out/Default
         
