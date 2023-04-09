@@ -1,4 +1,4 @@
-name: WebRtcNativeLinux
+name: WebRtcNativeLinuxStaticLib
 
 on: workflow_dispatch
 
