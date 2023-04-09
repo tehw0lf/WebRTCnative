@@ -1,6 +1,6 @@
 ## !!!IMPORTANT!!! Using C: drive as default D: has only 14BG available space
 
-name: WebRtcNativeWindows
+name: WebRtcNativeWindowsStaticLib
 
 on: workflow_dispatch
 
