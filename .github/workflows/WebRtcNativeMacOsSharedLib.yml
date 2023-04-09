@@ -33,7 +33,7 @@ jobs:
         git config --global core.filemode false
         git config --global branch.autosetuprebase always
         
-    - name: Get the code and build
+    - name: Get the code, patch and build
       run: |
         mkdir webrtc-checkout
         cd webrtc-checkout
@@ -42,7 +42,7 @@ jobs:
         cd src
         git checkout branch-heads/5481
         gclient sync
-        gn gen out/Default --args='is_debug=false'
+        gn gen out/Default --args="is_debug=false is_component_build=true rtc_enable_symbol_export=true rtc_include_tests=false rtc_build_tools=false rtc_build_examples=false"
         autoninja -C out/Default
         
     - name: Copy WebRTC library
