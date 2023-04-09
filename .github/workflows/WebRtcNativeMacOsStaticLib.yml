@@ -1,4 +1,4 @@
-name: WebRtcNativeMacOs
+name: WebRtcNativeMacOsStaticLib
 
 on: workflow_dispatch
 
