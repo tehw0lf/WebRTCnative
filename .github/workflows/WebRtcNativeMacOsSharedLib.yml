@@ -51,9 +51,9 @@ jobs:
         
     - name: Copy WebRTC library
       run: |
-        cp webrtc-checkout/src/out/Default/libwebrtc.so .
+        cp webrtc-checkout/src/out/Default/libwebrtc.dylib .
         
     - uses: actions/upload-artifact@v3
       with: 
         name: Upload WebRTC library to artifacts
-        path: ./libwebrtc.so
+        path: ./libwebrtc.dylib
