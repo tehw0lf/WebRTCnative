@@ -65,5 +65,5 @@ jobs:
         
     - uses: actions/upload-artifact@v3
       with: 
-        name: Upload WebRTC library to artifacts
+        name: Windows WebRTC dynamic library (webrtc.dll)
         path: .\webrtc.dll
