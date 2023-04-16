@@ -55,5 +55,5 @@ jobs:
         
     - uses: actions/upload-artifact@v3
       with: 
-        name: Upload WebRTC library to artifacts
+        name: macOS WebRTC dynamic library (libwebrtc.dylib)
         path: ./libwebrtc.dylib
