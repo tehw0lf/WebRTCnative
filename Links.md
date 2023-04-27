@@ -15,4 +15,9 @@ C++ CROSS-PLATFORM
 ==================
 https://medium.com/@oleg.tarasov/building-a-cross-platform-c-library-to-call-from-net-core-6fa90f3f1d5d
 https://github.com/studi-c/cross-platform-hello
+https://github.com/jameskbride/cmake-hello-world
+https://github.com/mycpptutorial/helloworld-cmake
+https://github.com/byronh/cmake-helloworld
+https://github.com/ibrahimelfar/example-cmake-helloworld-cpp
+
 
