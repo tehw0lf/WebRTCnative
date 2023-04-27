@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/WebRTCnative/FileContentIndex/091d9c02-564e-410c-8fa4-01a46633479f.vsidx
+/.vs/WebRTCnative/FileContentIndex/read.lock
+/.vs/WebRTCnative/FileContentIndex/437807a4-16ee-47c4-aead-74c4fef42c2e.vsidx
+/.vs/WebRTCnative/FileContentIndex/152f5487-c59e-46fd-84c4-6b7708dd8ba6.vsidx
+*.vsidx
+*.wsuo
+/.vs
