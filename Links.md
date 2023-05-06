@@ -11,6 +11,9 @@ https://groups.google.com/g/microsoft.public.dotnet.framework.interop/c/1AIuuQdz
 https://www.codeproject.com/Articles/18032/How-to-Marshal-a-C-Class
 
 
+https://medium.com/xrlo-extended-reality-lowdown/how-to-use-a-c-library-from-c-1549c3c48c0a
+
+
 C++ CROSS-PLATFORM (CMAKE)
 ==========================
 https://medium.com/@oleg.tarasov/building-a-cross-platform-c-library-to-call-from-net-core-6fa90f3f1d5d
