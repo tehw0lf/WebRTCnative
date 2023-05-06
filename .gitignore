@@ -7,3 +7,5 @@
 /.vs
 /WebRtcNativeObjectsWrapper/out/build/x64-debug
 /WebRtcNativeObjectsWrapper/.vs
+/WebRtcInterop/.vs/WebRtcInterop/v17
+/WebRtcInterop/.vs
