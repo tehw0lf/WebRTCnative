@@ -7,6 +7,7 @@ https://www.codeproject.com/Articles/18032/How-to-Marshal-a-C-Class
 https://groups.google.com/g/microsoft.public.dotnet.framework.interop/c/1AIuuQdzbN0?hl=en#0e74fa0d34947251
 https://groups.google.com/g/microsoft.public.dotnet.framework.interop/c/1AIuuQdzbN0
 
+https://softwareengineering.stackexchange.com/questions/406283/is-there-a-way-to-use-a-c-api-in-c
 
 https://www.codeproject.com/Articles/18032/How-to-Marshal-a-C-Class
 
