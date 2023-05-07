@@ -6,4 +6,4 @@ Static libraries are what the WebRTC build system by default produces. However, 
 
 By using a few tricks, I implemented dynamic/shared library generations on top of the conventional static libraries. 
 
-Please see the individual action workflows for each platform how this has been achieved. 'branch-heads/5481', which corresponds to stable Chromium release 110, is used in the current build. As updates occur, you can alter the branch-heads using the action workflow scripts.
+Please see the individual action workflows for each platform how this has been achieved. 'branch-heads/5481', which corresponds to stable Chromium release 110, is used in the current build. As updates occur, you can alter the branch-heads by editing the action workflow scripts.
