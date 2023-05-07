@@ -1,6 +1,6 @@
 # WebRTCnative: Automatically creating native libraries for desktop platforms
 
-The provided github actions build both static and dynamic/shared libraries for the Windows, Linux and macOS desktop platforms.
+The provided github actions build both static and dynamic/shared libraries for the Windows, Linux and macOS desktop platforms autmoatically.
 
 Static libraries are what the WebRTC build system by default produces. However, there are situations when you may need to use dynamic/shared libraries instead, such as when interoping with C# code or similar.
 
