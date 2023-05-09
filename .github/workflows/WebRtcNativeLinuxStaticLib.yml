@@ -42,6 +42,6 @@ jobs:
         
     - uses: actions/upload-artifact@v3
       with: 
-        name: Upload WebRTC library to artifacts
+        name: Linux WebRTC static library (libwebrtc.a)
         path: ./libwebrtc.a
         
