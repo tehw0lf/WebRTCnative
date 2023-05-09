@@ -1,4 +1,4 @@
-# WebRTCnative: Automatically creating native libraries for desktop platforms
+# WebRTCnative: Auto builds of the WebRTC native libraries for desktop platforms
 
 The provided github actions build both static and dynamic/shared libraries for the Windows, Linux and macOS desktop platforms automatically.
 
