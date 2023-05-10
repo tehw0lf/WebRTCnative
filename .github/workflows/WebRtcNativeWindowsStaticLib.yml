@@ -34,7 +34,7 @@ jobs:
     - name: Export 'depot_tools' path
       run: Add-Content $env:GITHUB_PATH c:\depot_tools
     - name: Execute 'gclient'
-      shell: pwsh
+      shell: powershell
       run: gclient
     
     - name: Configure Git
