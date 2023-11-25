@@ -26,6 +26,7 @@ jobs:
         
     - name: Get the code and build
       run: |
+        pip install --upgrade setuptools
         mkdir webrtc-checkout
         cd webrtc-checkout
         fetch --nohooks webrtc_ios
