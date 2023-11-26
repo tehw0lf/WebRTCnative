@@ -1,4 +1,4 @@
-name: WebRtcNativeIosBindings
+name: WebRtcNativeIosLib
 
 on: workflow_dispatch
  
