@@ -23,7 +23,16 @@ jobs:
         git config --global core.autocrlf false
         git config --global core.filemode false
         git config --global branch.autosetuprebase always
-        
+
+    - name: Free some space
+      run: |
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf /opt/ghc
+        sudo rm -rf "/usr/local/share/boost"
+        sudo rm -rf "$AGENT_TOOLSDIRECTORY"
+        pwd
+        df /
+
     - name: Get the code and build
       run: |
         mkdir webrtc-checkout
