@@ -51,5 +51,5 @@ jobs:
         
     - uses: actions/upload-artifact@v3
       with: 
-        name: macOS WebRTC ststic library (libwebrtc.a)
+        name: macOS WebRTC static library (libwebrtc.a)
         path: ./libwebrtc.a
