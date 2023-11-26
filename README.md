@@ -10,4 +10,4 @@ By using a few tricks, I implemented dynamic/shared library generations on top o
 Please see the individual action workflows for each platform how this has been achieved. 'branch-heads/5481', which corresponds to stable Chromium release 110, is used in the current build. As updates occur, you can alter the branch-heads by editing the action workflow scripts.
 
 ## Mobile
-Both Android and iOS libraries are built that can be used in >NET MAUI bindings.
+Both Android and iOS libraries are built that can be used in .NET MAUI bindings.
