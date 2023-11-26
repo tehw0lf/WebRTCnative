@@ -1,5 +1,6 @@
-# WebRTCnative: Auto builds of the WebRTC native libraries for desktop platforms
+# WebRTCnative: Auto builds of the WebRTC native libraries for Desktop and Mobile platforms
 
+## Desktop
 The provided github actions build both static and dynamic/shared libraries for the Windows, Linux and macOS desktop platforms automatically.
 
 Static libraries are what the WebRTC build system by default produces. However, there are situations when you may need to use dynamic/shared libraries instead, such as when interoping with C# code or similar.
@@ -7,3 +8,6 @@ Static libraries are what the WebRTC build system by default produces. However, 
 By using a few tricks, I implemented dynamic/shared library generations on top of the conventional static libraries. 
 
 Please see the individual action workflows for each platform how this has been achieved. 'branch-heads/5481', which corresponds to stable Chromium release 110, is used in the current build. As updates occur, you can alter the branch-heads by editing the action workflow scripts.
+
+## Mobile
+Both Android and iOS libraries are built that can be used in >NET MAUI bindings.
