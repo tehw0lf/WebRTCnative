@@ -45,8 +45,8 @@ jobs:
         ./tools_webrtc/android/build_aar.py
         ls -l 
 
-     - name: Copy WebRTC library
-       run: |
+    - name: Copy WebRTC library
+      run: |
         cp webrtc-checkout/src/ibwebrtc.aar . 
         
     - uses: actions/upload-artifact@v3
