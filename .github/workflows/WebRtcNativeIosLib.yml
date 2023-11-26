@@ -36,9 +36,9 @@ jobs:
         gclient sync
         #./tools_webrtc/ios/build_ios_libs.py --arch arm64 x64
         ./tools_webrtc/ios/build_ios_libs.py
-        ls -l webrtc-checkout/src/out_ios_libs
     - name: Zip the libraries
       run: |
+        ls -l webrtc-checkout/src/out_ios_libs
         zip -vr ./out_ios_libs.zip webrtc-checkout/src/out_ios_libs/ -x "*.DS_Store"
     - uses: actions/upload-artifact@v3
       with: 
