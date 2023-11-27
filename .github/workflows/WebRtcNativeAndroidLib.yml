@@ -47,7 +47,7 @@ jobs:
 
     - name: Copy WebRTC library
       run: |
-        cp webrtc-checkout/src/ibwebrtc.aar . 
+        cp webrtc-checkout/src/libwebrtc.aar . 
         
     - uses: actions/upload-artifact@v3
       with: 
