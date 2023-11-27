@@ -39,7 +39,7 @@ jobs:
     - name: Zip the libraries
       run: |
         ls -l webrtc-checkout/src/out_ios_libs
-        zip -vr ./out_ios_libs.zip webrtc-checkout/src/out_ios_libs/ -x "*.DS_Store"
+        zip -vr ./out_ios_libs.zip webrtc-checkout/src/out_ios_libs/WebRTC.xcframework -x "*.DS_Store"
     - uses: actions/upload-artifact@v3
       with: 
         name: iOS WebRTC libraries 
