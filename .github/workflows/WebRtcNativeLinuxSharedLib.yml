@@ -26,6 +26,7 @@ jobs:
         
     - name: Get the code, patch and build
       run: |
+        df -h
         mkdir webrtc-checkout
         cd webrtc-checkout
         fetch --nohooks webrtc
