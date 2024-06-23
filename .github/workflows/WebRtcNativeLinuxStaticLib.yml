@@ -9,6 +9,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3    
     
+    - name: Remove unnecessary files
+      run: |
+        sudo rm -rf /usr/share/dotnet
+        sudo rm -rf "$AGENT_TOOLSDIRECTORY"
+        
     - name: Create 'depot_tools'
       run: git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
     - name: Export 'depot_tools' path
